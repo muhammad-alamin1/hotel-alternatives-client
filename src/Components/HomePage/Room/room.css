@@ -1,0 +1,25 @@
+#home{
+    /* margin-top: 30px; */
+}
+
+.card{
+    padding: 20px;
+}
+
+.card-body{
+    margin-top: 30px;
+}
+
+.cards{
+    margin-top: 30px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.card img{
+    transition: 0.8s all ease-in-out;
+}
+
+.card img:hover{
+    transform: scale(1.3);
+}

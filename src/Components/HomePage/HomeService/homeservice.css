@@ -1,0 +1,24 @@
+
+#home-service h2{
+    margin-top: 120px;
+}
+
+.home-service-right img{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 10px;
+    transition: 0.8s all ease-in-out;
+    /* overflow: hidden; */
+}
+
+.home-service-right img:hover{
+    transform: scale(1.5);
+}
+
+.home-service-right strong h6{
+    margin-top: 20px;
+}
+
+#desc{
+    margin-left: 15px;
+}
