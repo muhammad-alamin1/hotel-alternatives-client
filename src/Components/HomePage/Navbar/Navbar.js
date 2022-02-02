@@ -29,8 +29,8 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <div className="">
-                        <button className="btn btn-success sign-up">Sign Up</button>
-                        <button className="btn btn-success sign-in">Sign In</button>
+                        <Link to="/" style={{'marginRight': '10px'}}><button className="btn btn-success">Sign In</button></Link>
+                        <Link to="/user/register"><button className="btn btn-success">Sign Up</button></Link>
                     </div>
                 </div>
             </div>

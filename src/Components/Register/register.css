@@ -1,0 +1,44 @@
+#register{
+    width:60%;
+    height: 100vh;
+    margin: 0 auto;
+    border:1px solid #000;
+    border-radius:5px;
+}
+
+#register h6{
+    margin: 20px 10px;
+}
+
+#register-form{
+    width:60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#register-form form input{
+    box-shadow: none;
+}
+
+#register-form form input:focus{
+    background-color: rgb(58, 40, 40);
+    color:#fff;
+}
+
+#register-with-google{
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    border: .5px solid rgb(129, 124, 124);
+    border-radius:15px;
+    margin-top: 30px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-with-google img{
+    width: 20px;
+    height: auto;
+}
