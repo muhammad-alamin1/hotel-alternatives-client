@@ -11,18 +11,18 @@ export default function Register() {
         <h6><strong>Create an account</strong></h6>
         <div id="register-form">
             <form action="" method="post">
-                <input className="form-control" type="text" name="full-name" placeholder="Full Name"/> <br/>
-                <input className="form-control" type="text" name="username" placeholder="Username"/> <br/>
-                <input className="form-control" type="email" name="email" placeholder="Email" /> <br/>
-                <input className="form-control" type="number" name="mobile" placeholder="Mobile" /> <br/>
-                <input className="form-control" type="password" name="password" placeholder="Password"/> <br/>
-                <input className="form-control" type="password" name="confirm-password" placeholder="Confirm Password"/> <br/>
+                <input className="form-control" type="text" name="full-name" placeholder="Full Name" required /> <br/>
+                <input className="form-control" type="text" name="username" placeholder="Username" required /> <br/>
+                <input className="form-control" type="email" name="email" placeholder="Email" required /> <br/>
+                <input className="form-control" type="number" name="mobile" placeholder="Mobile" required /> <br/>
+                <input className="form-control" type="password" name="password" placeholder="Password" required /> <br/>
+                <input className="form-control" type="password" name="confirm-password" placeholder="Confirm Password" required /> <br/>
                 <input type="submit" value="Register" />
             </form>
         </div>
         <div className="text-center">
             <span>already have an account ?</span>
-            <Link to="/">Login</Link>
+            <Link to="/user/login"> Login</Link>
         </div>
         <div id="register-with-google">
             <p><img src={google} id="google-icon" alt="google"/> Continue with Google</p>

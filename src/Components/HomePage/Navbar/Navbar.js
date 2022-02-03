@@ -29,7 +29,7 @@ export default function Navbar() {
                         </li>
                     </ul>
                     <div className="">
-                        <Link to="/" style={{'marginRight': '10px'}}><button className="btn btn-success">Sign In</button></Link>
+                        <Link to="/user/login" style={{'marginRight': '10px'}}><button className="btn btn-success">Sign In</button></Link>
                         <Link to="/user/register"><button className="btn btn-success">Sign Up</button></Link>
                     </div>
                 </div>

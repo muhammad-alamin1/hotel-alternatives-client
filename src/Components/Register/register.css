@@ -16,13 +16,13 @@
     padding: 20px;
 }
 
-#register-form form input{
+#register-form form input, #user-login form input{
     box-shadow: none;
 }
 
-#register-form form input:focus{
-    background-color: rgb(58, 40, 40);
-    color:#fff;
+#register-form form input:focus, #user-login form input:focus{
+    background-color: rgba(200, 203, 204, 0.678);
+    color:#000;
 }
 
 #register-with-google{
