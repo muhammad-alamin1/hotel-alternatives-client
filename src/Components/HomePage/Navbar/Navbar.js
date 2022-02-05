@@ -28,7 +28,7 @@ export default function Navbar() {
                             <Link className="nav-link" to="/dashboard/user">User</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Admin</Link>
+                            <Link className="nav-link" to="/dashboard/admin/">Admin</Link>
                         </li>
                     </ul>
                     <div className="">
