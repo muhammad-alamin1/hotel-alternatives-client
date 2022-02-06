@@ -8,6 +8,8 @@ import AddService from "./Components/AdminDashboard/AddService/AddService";
 import Admin from "./Components/AdminDashboard/Admin/Admin";
 import AllOrder from "./Components/AdminDashboard/AllOrder/AllOrder";
 import MakeAdmin from "./Components/AdminDashboard/MakeAdmin/MakeAdmin";
+import ManageServices from "./Components/AdminDashboard/ManageServices/ManageServices";
+import ProductUpdate from "./Components/AdminDashboard/ProductUpdate/ProductUpdate";
 import Home from './Components/HomePage/Home/Home';
 import Login from "./Components/Login/Login";
 import NotFound from "./Components/NotFound/NotFound";
@@ -26,7 +28,9 @@ function App() {
                 <Route path='/dashboard/admin/' element={<Admin />}/> 
                 <Route path='/dashboard/admin/orders/' element={<AllOrder />} /> 
                 <Route path='/dashboard/admin/addservice/' element={<AddService />} /> 
-                <Route path='/dashboard/admin/addadmin/' element={<MakeAdmin />} /> 
+                <Route path='/dashboard/admin/addadmin/' element={<MakeAdmin />} />
+                <Route path='/dashboard/admin/manageservice/' element={<ManageServices />} />
+                <Route path='/dashboard/admin/manageservice/update/:homeId' element={<ProductUpdate />} />
                 <Route path='/' element={<Home />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>

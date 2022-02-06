@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Admin() {
   return <div>
       <ProSidebar>
-        <Menu iconShape="">
+        <Menu iconShape="square">
             <SidebarHeader>
                 <MenuItem><h4>Hotel Alternatives</h4></MenuItem>
                 <div style={{marginLeft: '65px'}}><strong><i>Muhammad</i></strong></div> <br/>
@@ -21,8 +21,16 @@ export default function Admin() {
                 <MenuItem>Make admin
                     <Link to="/dashboard/admin/addadmin/" />
                 </MenuItem>
-                <MenuItem>Manage Services</MenuItem>
+                <MenuItem>Manage Services
+                    <Link to="/dashboard/admin/manageservice/" />
+                </MenuItem>
             </SidebarContent>
+            <SidebarFooter>
+                <MenuItem>Root page
+                    <Link to="/" />
+                </MenuItem>
+                <MenuItem>Logout</MenuItem>
+            </SidebarFooter>
         </Menu>
       </ProSidebar>
   </div>;
